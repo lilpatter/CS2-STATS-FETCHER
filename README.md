@@ -86,7 +86,7 @@
 - **Local Processing**: All data processing happens on your local machine
 - **No Data Storage**: No personal information is stored or transmitted to external servers
 - **Steam Integration**: Uses official Steam API with read-only access
-- **Open Source**: Source code available for transparency and security auditing
+- **Secure**: Thoroughly tested and scanned for malware before release
 
 ---
 
@@ -99,8 +99,6 @@ This application is distributed exclusively through **GitHub Releases** as a pre
 - ✅ **Portable**: Single executable file with all dependencies included
 - ✅ **Tested**: Each release is thoroughly tested before distribution
 - ✅ **Secure**: Official builds from verified source
-
-> **Note**: Source code is available for transparency and security review, but building from source is not supported for end users.
 
 ---
 
@@ -169,12 +167,6 @@ We welcome community input! Here's how you can help:
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 🙏 Acknowledgments
 
 - **Valve Corporation** for the Steam API
@@ -189,7 +181,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 - **Issues**: [GitHub Issues](../../issues)
 - **Discussions**: [GitHub Discussions](../../discussions)
-- **Steam**: Find us on Steam Community
+- **Steam**: [Steam Profile](https://steamcommunity.com/profiles/76561197963549247)
 
 ---
 
