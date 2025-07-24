@@ -90,38 +90,17 @@
 
 ---
 
-## 🔧 Building from Source
+## 💾 Software Distribution
 
-### Prerequisites
-- **Visual Studio 2022** with C++ build tools
-- **Node.js 18+** and npm
-- **vcpkg** package manager
-- **Git** for version control
+### Release-Only Distribution
+This application is distributed exclusively through **GitHub Releases** as a pre-built, portable executable. 
 
-### Build Instructions
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/CS2-CSStats-Fetcher.git
-cd CS2-CSStats-Fetcher
+- ✅ **Ready to Use**: No compilation or setup required
+- ✅ **Portable**: Single executable file with all dependencies included
+- ✅ **Tested**: Each release is thoroughly tested before distribution
+- ✅ **Secure**: Official builds from verified source
 
-# Run the automated build script
-.\Build-CS2StatsFetcher.bat
-
-# The portable executable will be created in the Release folder
-```
-
-### Development Setup
-```bash
-# Install C++ dependencies (via vcpkg)
-vcpkg install curl
-
-# Install Electron dependencies
-cd electron-app
-npm install
-
-# Build and run in development mode
-npm start
-```
+> **Note**: Source code is available for transparency and security review, but building from source is not supported for end users.
 
 ---
 
@@ -170,7 +149,7 @@ npm start
 
 ## 🤝 Contributing
 
-We welcome contributions! Here's how you can help:
+We welcome community input! Here's how you can help:
 
 ### Bug Reports
 - Use the [Issues](../../issues) page to report bugs
@@ -183,11 +162,10 @@ We welcome contributions! Here's how you can help:
 - Check existing requests to avoid duplicates
 
 ### Code Contributions
-- Fork the repository
-- Create a feature branch (`git checkout -b feature/amazing-feature`)
-- Commit your changes (`git commit -m 'Add amazing feature'`)
-- Push to the branch (`git push origin feature/amazing-feature`)
-- Open a Pull Request
+- Fork the repository and make your changes
+- Submit a Pull Request with your improvements
+- **Note**: All releases are built and distributed exclusively by the project maintainer
+- Contributors will be credited in release notes and acknowledgments
 
 ---
 
