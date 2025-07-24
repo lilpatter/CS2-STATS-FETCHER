@@ -4,118 +4,28 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue?style=for-the-badge&logo=windows)
 
-**A powerful desktop application for fetching and displaying comprehensive Counter-Strike 2 player statistics from Faceit and Leetify.**
+**A powerful desktop application for fetching comprehensive Counter-Strike 2 player statistics from Faceit and Leetify.**
 
----
+## 📥 **Download**
+**[⬇️ Download Latest Release](../../releases/latest)** • **Requirements:** Windows 10/11 (64-bit), Steam logged in
 
-## 🚀 Features
+## 🚀 **Key Features**
+- 🎯 **Auto-detect recent CS2 players** and fetch their stats instantly
+- 📊 **Faceit & Leetify integration** - ELO, skill levels, detailed analytics
+- 🖥️ **Modern dark UI** with real-time progress tracking
+- ⚡ **Portable executable** - no installation required
 
-### 🎯 **Real-time Player Analysis**
-- **Automatic Recent Players Detection**: Instantly fetches stats for players from your recent CS2 matches
-- **Manual Player Lookup**: Search any player by Steam ID or profile URL
-- **Comprehensive Data Sources**: Integrates with both Faceit and Leetify APIs for complete player profiles
+## 🎮 **How to Use**
+1. **Download and run** the executable
+2. **Play CS2 matches** as usual
+3. **Click "Fetch Recent Players"** to see comprehensive stats
+4. **Toggle Manual Mode** to search specific players by Steam ID
 
-### 📊 **Detailed Statistics**
-- **Faceit Integration**: Skill level, ELO rating, country, match history
-- **Leetify Analytics**: Advanced rating breakdowns (Aim, Positioning, Utility, Clutch, Opening)
-- **Overall Performance**: K/D ratio, ADR, headshot percentage, win rate, MVP count
-- **Match History**: Recent game performance and trends
+## 🔧 **Technical Info**
+**Architecture:** C++ backend + Electron frontend • **APIs:** Steam, Faceit, Leetify • **Privacy:** All processing local, no data stored • **Distribution:** Official releases only
 
-### 🖥️ **Modern Interface**
-- **Sleek Dark Theme**: Professional CS2-inspired UI design
-- **Real-time Updates**: Live progress tracking during data fetching
-- **Responsive Layout**: Optimized for various screen sizes
-- **Interactive Scoreboard**: Hover effects and detailed player cards
-
-### ⚡ **Performance & Reliability**
-- **Hybrid Architecture**: C++ backend for speed + Electron frontend for UI
-- **Multi-threaded Processing**: Concurrent API requests for faster results
-- **Error Handling**: Robust fallback mechanisms and user feedback
-- **Portable Executable**: Single .exe file - no installation required
-
----
-
-## 📥 Download & Installation
-
-### Quick Start
-1. **Download** the latest release: [`CS2-Stats-Fetcher-Portable.exe`](../../releases/latest)
-2. **Run** the executable - no installation needed!
-3. **Launch CS2** and play some matches
-4. **Click "Fetch Recent Players"** to see stats for your recent teammates/opponents
-
-> **System Requirements**: Windows 10/11 (64-bit), Steam installed and logged in
-
----
-
-## 🎮 How to Use
-
-### Automatic Mode (Recommended)
-1. **Play CS2 matches** as usual
-2. **Open CS2 Stats Fetcher**
-3. **Click "Fetch Recent Players"**
-4. View comprehensive stats for all recent players automatically
-
-### Manual Mode
-1. **Click "Toggle Manual Mode"**
-2. **Enter Steam ID or Profile URL** in the input field
-3. **Click "Fetch Player Stats"**
-4. View detailed statistics for the specific player
-
-### Features Overview
-- **Progress Tracking**: Real-time updates show fetch progress
-- **Data Sources**: Automatically queries Faceit and Leetify
-- **Player Identification**: Shows your current Steam profile highlighted in green
-- **Export Options**: Results can be copied or saved for later analysis
-
----
-
-## 🛠️ Technical Details
-
-### Architecture
-- **Backend**: C++ with Crow web framework for high-performance API handling
-- **Frontend**: Electron-based desktop application with modern HTML5/CSS3/JavaScript
-- **APIs**: Integrates with Steam, Faceit, and Leetify public APIs
-- **Dependencies**: libcurl for HTTP requests, Steam API for user authentication
-
-### Data Sources
-- **Steam API**: Player names, profile information, recent game data
-- **Faceit API**: Competitive rankings, ELO, match history, regional data
-- **Leetify API**: Advanced analytics, detailed performance metrics, AI-driven insights
-
-### Privacy & Security
-- **Local Processing**: All data processing happens on your local machine
-- **No Data Storage**: No personal information is stored or transmitted to external servers
-- **Steam Integration**: Uses official Steam API with read-only access
-- **Secure**: Thoroughly tested and scanned for malware before release
-
----
-
-## 💾 Software Distribution
-
-### Release-Only Distribution
-This application is distributed exclusively through **GitHub Releases** as a pre-built, portable executable. 
-
-- ✅ **Ready to Use**: No compilation or setup required
-- ✅ **Portable**: Single executable file with all dependencies included
-- ✅ **Tested**: Each release is thoroughly tested before distribution
-- ✅ **Secure**: Official builds from verified source
-
----
-
-## 📋 System Requirements
-
-### Minimum Requirements
-- **OS**: Windows 10 (64-bit)
-- **RAM**: 4 GB
-- **Storage**: 50 MB available space
-- **Network**: Internet connection required
-- **Steam**: Steam client installed and logged in
-
-### Recommended
-- **OS**: Windows 11 (64-bit)
-- **RAM**: 8 GB or more
-- **Storage**: 100 MB available space (for faster loading)
-- **Network**: Stable broadband connection
+## 📋 **System Requirements** 
+**Minimum:** Windows 10 (64-bit), 4GB RAM, Steam logged in • **Recommended:** Windows 11, 8GB+ RAM
 
 ---
 
