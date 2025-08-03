@@ -3,118 +3,93 @@
 ![CS2 Stats Fetcher](https://img.shields.io/badge/CS2-Stats%20Fetcher-orange?style=for-the-badge&logo=steam)
 ![Version](https://img.shields.io/badge/version-1.0.0-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue?style=for-the-badge&logo=windows)
+![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 
-**A powerful desktop application for fetching comprehensive Counter-Strike 2 player statistics from Faceit and Leetify.**
+**A robust desktop application for retrieving comprehensive Counter-Strike 2 player statistics from Faceit and Leetify APIs, designed for competitive gamers.**
 
-<img width="1181" height="788" alt="image" src="https://github.com/user-attachments/assets/be8d60b3-b98e-4f32-b0c8-f854c906e4f3" />
-<img width="1136" height="410" alt="image" src="https://github.com/user-attachments/assets/70ca1fab-3f68-4fe5-9050-40b11ae87914" />
-<img width="1182" height="788" alt="image" src="https://github.com/user-attachments/assets/c81c0c09-ba61-4891-a4d7-9495291a58da" />
+![Main Interface](https://github.com/user-attachments/assets/be8d60b3-b98e-4f32-b0c8-f854c906e4f3)
+*CS2 Stats Fetcher upon launch, displaying the main interface.*
+
+![Fetching Players](https://github.com/user-attachments/assets/70ca1fab-3f68-4fe5-9050-40b11ae87914)
+*Fetching recent players after clicking "Fetch Recent Players".*
+
+![Results Display](https://github.com/user-attachments/assets/c81c0c09-ba61-4891-a4d7-9495291a58da)
+*Comprehensive player statistics displayed after fetching completes.*
 
 ## 📥 **Download**
-**[⬇️ Download Latest Release](../../releases/latest)** • **Requirements:** Windows 10/11 (64-bit), Steam logged in
+**[⬇️ Download Latest Release](../../releases/latest)**  
+**Requirements:** Windows 10/11 (64-bit), Steam client running and logged in.
 
-## 🚀 **Key Features**
-- 🎯 **Auto-detect recent CS2 players** and fetch their stats instantly
-- 📊 **Faceit & Leetify integration** - ELO, skill levels, detailed analytics
-- 🖥️ **Modern dark UI** with real-time progress tracking
-- ⚡ **Portable executable** - no installation required
+## 🌟 **Key Features**
+- 🎯 **Automatic Player Detection**: Instantly identifies and fetches stats for recent CS2 match players.
+- 📊 **Faceit & Leetify Integration**: Retrieves ELO, skill levels, K/D ratios, and detailed match analytics.
+- 🖥️ **Sleek Dark UI**: Modern Electron-based interface with real-time progress indicators.
+- ⚡ **Portable Application**: No installation required; runs directly from the executable.
+- 🔒 **Privacy-Focused**: All data processing is local, with no external storage or telemetry.
 
-## 🎮 **How to Use**
-1. **Download and run** the executable
-2. **Play CS2 matches** as usual
-3. **Click "Fetch Recent Players"** to see comprehensive stats
-4. **Toggle Manual Mode** to search specific players by Steam ID
+## 🎮 **Usage Instructions**
+1. **Download** the latest release and run the executable.
+2. **Play CS2 Matches**: Ensure you’ve played at least one match for player detection.
+3. **Fetch Stats**: Click **"Fetch Recent Players"** to retrieve stats automatically.
+4. **Manual Search**: Use **Manual Mode** to query specific players via Steam ID.
+5. **View Results**: Explore detailed stats in the intuitive interface.
 
-## 🔧 **Technical Info**
-**Architecture:** C++ backend + Electron frontend • **APIs:** Steam, Faceit, Leetify • **Privacy:** All processing local, no data stored • **Distribution:** Official releases only
+## 🔧 **Technical Details**
+- **Architecture**: High-performance C++ backend with Crow framework; Electron-based frontend for cross-platform compatibility.
+- **APIs**: Steam Web API, Faceit API, Leetify API for comprehensive data.
+- **Security**: Local processing ensures no sensitive data leaves your device.
+- **Distribution**: Official releases are cryptographically signed and distributed solely via GitHub.
 
-## 📋 **System Requirements** 
-**Minimum:** Windows 10 (64-bit), 4GB RAM, Steam logged in • **Recommended:** Windows 11, 8GB+ RAM
+## 📋 **System Requirements**
+- **Minimum**: Windows 10 (64-bit), 4GB RAM, Steam client logged in.
+- **Recommended**: Windows 11, 8GB+ RAM, stable internet connection for API calls.
 
----
+## 🛠️ **Troubleshooting**
 
-## 🐛 Troubleshooting
+### Common Issues & Solutions
+- **"No recent players found"**  
+  - Verify Steam is running and online.
+  - Play a CS2 match to populate recent player data.
+  - Ensure Steam’s privacy settings allow match history access.
 
-### Common Issues
+- **"API rate limit exceeded"**  
+  - Wait 5–10 minutes before retrying.
+  - Reduce the number of players fetched in one go.
+  - Check Faceit/Leetify API status for outages.
 
-**"No recent players found"**
-- Ensure Steam is running and you're logged in
-- Play at least one CS2 match before fetching
-- Check that Steam is not in offline mode
+- **"Backend server not responding"**  
+  - Restart the application.
+  - Allow port 18080 through Windows Firewall.
+  - Disable conflicting VPN or network software.
 
-**"API rate limit exceeded"**
-- Wait a few minutes before trying again
-- Faceit/Leetify APIs have rate limiting
-- Try fetching fewer players at once
+- **"Application fails to start"**  
+  - Install [Microsoft Visual C++ Redistributable (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe).
+  - Run the application as Administrator.
+  - Add the executable to your antivirus whitelist.
 
-**"Backend server not responding"**
-- Restart the application
-- Check Windows Firewall settings
-- Ensure port 18080 is not blocked
+For additional help, visit the [Issues](../../issues) page or join our [Discussions](../../discussions).
 
-**Application won't start**
-- Install [Microsoft Visual C++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe)
-- Run as Administrator if needed
-- Check antivirus software isn't blocking the executable
+## 🤝 **Contributing**
+We value community contributions to make CS2 Stats Fetcher even better!
 
----
+### Reporting Bugs
+- Submit issues via the [Issues](../../issues) page.
+- Provide detailed steps to reproduce, system specs, and screenshots.
+- Check for existing reports to avoid duplicates.
 
-## 🤝 Contributing
-
-We welcome community input! Here's how you can help:
-
-### Bug Reports
-- Use the [Issues](../../issues) page to report bugs
-- Include system information and steps to reproduce
-- Attach screenshots if relevant
-
-### Feature Requests
-- Suggest new features via [Issues](../../issues)
-- Describe the use case and expected behavior
-- Check existing requests to avoid duplicates
+### Requesting Features
+- Share ideas on the [Issues](../../issues) page.
+- Clearly explain the feature’s purpose and potential benefits.
+- Review existing feature requests before submitting.
 
 ### Code Contributions
-- Fork the repository and make your changes
-- Submit a Pull Request with your improvements
-- **Note**: All releases are built and distributed exclusively by the project maintainer
-- Contributors will be credited in release notes and acknowledgments
+- Fork the repository and implement your changes.
+- Submit a Pull Request with clear commit messages and documentation.
+- **Note**: All official releases are built and signed by the project maintainer.
+- Contributors are credited in release notes and the [Acknowledgments](#-acknowledgments) section.
 
----
-
-## 🙏 Acknowledgments
-
-- **Valve Corporation** for the Steam API
-- **Faceit** for providing competitive match data
-- **Leetify** for advanced player analytics
-- **Crow Framework** for the lightweight C++ web server
-- **Electron** for cross-platform desktop application framework
-
----
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](../../issues)
-- **Discussions**: [GitHub Discussions](../../discussions)
-- **Steam**: [Steam Profile](https://steamcommunity.com/profiles/76561197963549247)
-
----
-
-## 🔄 Changelog
-
-### Version 1.0.0 (Latest)
-- ✨ Initial release
-- 🎯 Automatic recent players detection
-- 📊 Faceit and Leetify integration
-- 🖥️ Modern Electron-based UI
-- ⚡ High-performance C++ backend
-- 🛡️ Comprehensive error handling
-
----
-
-**Made with ❤️ for the CS2 community**
-
-![CS2](https://img.shields.io/badge/Game-Counter--Strike%202-blue?style=flat-square&logo=steam)
-![C++](https://img.shields.io/badge/Backend-C++-blue?style=flat-square&logo=cplusplus)
-![Electron](https://img.shields.io/badge/Frontend-Electron-teal?style=flat-square&logo=electron)
-![Steam](https://img.shields.io/badge/API-Steam-black?style=flat-square&logo=steam)
-
+## 🔍 **Development Setup**
+To set up a local development environment:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-repo/cs2-stats-fetcher.git
