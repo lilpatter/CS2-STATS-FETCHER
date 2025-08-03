@@ -6,6 +6,10 @@
 
 **A powerful desktop application for fetching comprehensive Counter-Strike 2 player statistics from Faceit and Leetify.**
 
+<img width="1181" height="788" alt="image" src="https://github.com/user-attachments/assets/be8d60b3-b98e-4f32-b0c8-f854c906e4f3" />
+<img width="1136" height="410" alt="image" src="https://github.com/user-attachments/assets/70ca1fab-3f68-4fe5-9050-40b11ae87914" />
+<img width="1182" height="788" alt="image" src="https://github.com/user-attachments/assets/c81c0c09-ba61-4891-a4d7-9495291a58da" />
+
 ## 📥 **Download**
 **[⬇️ Download Latest Release](../../releases/latest)** • **Requirements:** Windows 10/11 (64-bit), Steam logged in
 
@@ -113,3 +117,4 @@ We welcome community input! Here's how you can help:
 ![C++](https://img.shields.io/badge/Backend-C++-blue?style=flat-square&logo=cplusplus)
 ![Electron](https://img.shields.io/badge/Frontend-Electron-teal?style=flat-square&logo=electron)
 ![Steam](https://img.shields.io/badge/API-Steam-black?style=flat-square&logo=steam)
+
