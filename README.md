@@ -40,10 +40,6 @@
 - **Security**: Local processing ensures no sensitive data leaves your device.
 - **Distribution**: Official releases are cryptographically signed and distributed solely via GitHub.
 
-## 📋 **System Requirements**
-- **Minimum**: Windows 10 (64-bit), 4GB RAM, Steam client logged in.
-- **Recommended**: Windows 11, 8GB+ RAM, stable internet connection for API calls.
-
 ## 🛠️ **Troubleshooting**
 
 ### Common Issues & Solutions
@@ -83,13 +79,9 @@ We value community contributions to make CS2 Stats Fetcher even better!
 - Review existing feature requests before submitting.
 
 ### Code Contributions
-- Fork the repository and implement your changes.
 - Submit a Pull Request with clear commit messages and documentation.
 - **Note**: All official releases are built and signed by the project maintainer.
 - Contributors are credited in release notes and the [Acknowledgments](#-acknowledgments) section.
 
-## 🔍 **Development Setup**
-To set up a local development environment:
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-repo/cs2-stats-fetcher.git
+
+
