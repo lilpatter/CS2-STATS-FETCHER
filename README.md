@@ -42,7 +42,7 @@
 - **APIs**: Steam Web API, Faceit API, Leetify API for comprehensive data.
 - **Security**: Local processing ensures no sensitive data leaves your device.
 - **Distribution**: Official releases are cryptographically signed and distributed solely via GitHub.
-- **Source Code**: The frontend source code is available in this repository. The backend source code is planned for release in the near future, pending further cleanup and adjustments to ensure quality and maintainability.
+- **Availability**: No source code is currently available. The backend executable file is planned for release in the near future, pending further cleanup and adjustments to ensure quality and performance.
 
 ## System Requirements
 - **Minimum**: Windows 10 (64-bit), 4GB RAM, Steam client logged in.
@@ -87,8 +87,7 @@ We value community contributions to make CS2 Stats Fetcher even better!
 - Review existing feature requests before submitting.
 
 ### Code Contributions
-- Fork the repository and submit a Pull Request with clear commit messages and documentation.
-- **Note**: Currently, contributions are limited to the frontend code, as the backend source code is not yet public. The backend code is planned for release in the near future after further cleanup and adjustments.
+- **Note**: No source code is currently available for contribution. The backend executable file is planned for release in the near future after further cleanup and adjustments. Once released, contributions may be considered for future updates.
 - Contributors will be credited in release notes and the [Acknowledgments](#acknowledgments) section.
 
 ## Acknowledgments
