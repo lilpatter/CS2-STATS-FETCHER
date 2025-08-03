@@ -7,14 +7,17 @@
 
 **A robust desktop application for retrieving comprehensive Counter-Strike 2 player statistics from Faceit and Leetify APIs, designed for competitive gamers.**
 
-<img src="https://github.com/user-attachments/assets/be8d60b3-b98e-4f32-b0c8-f854c906e4f3" alt="Main Interface" width="400" />
-CS2 Stats Fetcher upon launch, displaying the main interface.
+<img src="https://github.com/user-attachments/assets/be8d60b3-b98e-4f32-b0c8-f854c906e4f3" alt="Main Interface" width="300" />
 
-<img src="https://github.com/user-attachments/assets/70ca1fab-3f68-4fe5-9050-40b11ae87914" alt="Fetching Players" width="400" />
-Fetching recent players after clicking "Fetch Recent Players".
+*Displaying the CS2 Stats Fetcher main interface upon launch.*
 
-<img src="https://github.com/user-attachments/assets/c81c0c09-ba61-4891-a4d7-9495291a58da" alt="Results Display" width="400" />
-Comprehensive player statistics displayed after fetching completes.
+<img src="https://github.com/user-attachments/assets/70ca1fab-3f68-4fe5-9050-40b11ae87914" alt="Fetching Players" width="300" />
+
+*Fetching recent players after clicking "Fetch Recent Players".*
+
+<img src="https://github.com/user-attachments/assets/c81c0c09-ba61-4891-a4d7-9495291a58da" alt="Results Display" width="300" />
+
+*Showing comprehensive player statistics after fetching completes.*
 
 ## 📥 **Download**
 **[⬇️ Download Latest Release](../../releases/latest)**  
@@ -82,6 +85,7 @@ We value community contributions to make CS2 Stats Fetcher even better!
 - Submit a Pull Request with clear commit messages and documentation.
 - **Note**: All official releases are built and signed by the project maintainer.
 - Contributors are credited in release notes and the [Acknowledgments](#-acknowledgments) section.
+
 
 
 
