@@ -1,7 +1,7 @@
 # CS2 Stats Fetcher
 
 ![CS2 Stats Fetcher](https://img.shields.io/badge/CS2-Stats%20Fetcher-orange?style=for-the-badge&logo=steam)
-![Version](https://img.shields.io/badge/version-1.0.0-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.1.5-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue?style=for-the-badge&logo=windows)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 
@@ -102,6 +102,7 @@ For additional help, visit the [Issues](../../issues) page or join our [Discussi
 ![Steam](https://img.shields.io/badge/API-Steam-black?style=flat-square&logo=steam)
 ![Faceit](https://img.shields.io/badge/API-Faceit-orange?style=flat-square)
 ![Leetify](https://img.shields.io/badge/API-Leetify-green?style=flat-square)
+
 
 
 
