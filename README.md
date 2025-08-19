@@ -7,6 +7,13 @@
 
 **A robust desktop application for retrieving comprehensive Counter-Strike 2 player statistics from Faceit and Leetify APIs, designed for competitive gamers.**
 
+<img width="1898" height="909" alt="{52FC453C-E161-4ECE-8E37-D43825D09546}" src="https://github.com/user-attachments/assets/58670b8b-ed62-4d9d-857c-addc8053bcfc" />
+
+*Updated UI!!*
+*Fixed: Padding, image errors (due to CSstats shutting down)*
+*Added new icons, more stylized UI*
+
+
 <img src="https://github.com/user-attachments/assets/be8d60b3-b98e-4f32-b0c8-f854c906e4f3" alt="Main Interface" width="300" />
 
 *Displaying the CS2 Stats Fetcher main interface upon launch.*
@@ -127,3 +134,4 @@ This project is licensed under the MIT License. See [LICENSE](../../LICENSE) for
 ![Steam](https://img.shields.io/badge/API-Steam-black?style=flat-square&logo=steam)
 ![Faceit](https://img.shields.io/badge/API-Faceit-orange?style=flat-square)
 ![Leetify](https://img.shields.io/badge/API-Leetify-green?style=flat-square)
+
