@@ -5,24 +5,23 @@
 ![Platform](https://img.shields.io/badge/platform-Windows-blue?style=for-the-badge&logo=windows)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 
-<img width="1898" height="909" alt="{52FC453C-E161-4ECE-8E37-D43825D09546}" src="https://github.com/user-attachments/assets/58670b8b-ed62-4d9d-857c-addc8053bcfc" />
-
 *Updated UI!!*
 *Fixed: Padding, image errors (due to CSstats shutting down)*
 *Added new icons, more stylized UI*
 
-
-<img src="https://github.com/user-attachments/assets/be8d60b3-b98e-4f32-b0c8-f854c906e4f3" alt="Main Interface" width="300" />
+<img width="1898" height="909" alt="{52FC453C-E161-4ECE-8E37-D43825D09546}" src="https://github.com/user-attachments/assets/58670b8b-ed62-4d9d-857c-addc8053bcfc" />
 
 *Displaying the CS2 Stats Fetcher main interface upon launch.*
 
-<img src="https://github.com/user-attachments/assets/70ca1fab-3f68-4fe5-9050-40b11ae87914" alt="Fetching Players" width="300" />
+<img src="https://github.com/user-attachments/assets/be8d60b3-b98e-4f32-b0c8-f854c906e4f3" alt="Main Interface" width="300" />
 
 *Fetching recent players after clicking "Fetch Recent Players".*
 
-<img src="https://github.com/user-attachments/assets/c81c0c09-ba61-4891-a4d7-9495291a58da" alt="Results Display" width="300" />
+<img src="https://github.com/user-attachments/assets/70ca1fab-3f68-4fe5-9050-40b11ae87914" alt="Fetching Players" width="300" />
 
 *Showing comprehensive player statistics after fetching completes.*
+
+<img src="https://github.com/user-attachments/assets/c81c0c09-ba61-4891-a4d7-9495291a58da" alt="Results Display" width="300" />
 
 ## Download
 **[⬇Download Latest Release](../../releases/latest)**  
@@ -103,5 +102,6 @@ For additional help, visit the [Issues](../../issues) page or join our [Discussi
 ![Steam](https://img.shields.io/badge/API-Steam-black?style=flat-square&logo=steam)
 ![Faceit](https://img.shields.io/badge/API-Faceit-orange?style=flat-square)
 ![Leetify](https://img.shields.io/badge/API-Leetify-green?style=flat-square)
+
 
 
