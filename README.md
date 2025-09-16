@@ -6,7 +6,8 @@
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 
 *Overhauling the UI!*
-*At the momement the UI is getting a overhaul. i have attached a screenshot so you can take a look at the progress.*
+*At the momement the UI is getting a overhaul.
+*I have attached a screenshot so you can take a look at the progress.*
 
 *Updated UI!!*
 *Fixed: Padding, image errors*
@@ -89,6 +90,7 @@ For additional help, visit the [Issues](../../issues) page or join our [Discussi
 ![Steam](https://img.shields.io/badge/API-Steam-black?style=flat-square&logo=steam)
 ![Faceit](https://img.shields.io/badge/API-Faceit-orange?style=flat-square)
 ![Leetify](https://img.shields.io/badge/API-Leetify-green?style=flat-square)
+
 
 
 
