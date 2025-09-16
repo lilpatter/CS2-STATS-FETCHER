@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 
 *Updated UI!!*
-*Fixed: Padding, image errors (due to CSstats shutting down)*
+*Fixed: Padding, image errors*
 *Added new icons, more stylized UI*
 
 <img width="1898" height="909" alt="{52FC453C-E161-4ECE-8E37-D43825D09546}" src="https://github.com/user-attachments/assets/58670b8b-ed62-4d9d-857c-addc8053bcfc" />
@@ -102,6 +102,7 @@ For additional help, visit the [Issues](../../issues) page or join our [Discussi
 ![Steam](https://img.shields.io/badge/API-Steam-black?style=flat-square&logo=steam)
 ![Faceit](https://img.shields.io/badge/API-Faceit-orange?style=flat-square)
 ![Leetify](https://img.shields.io/badge/API-Leetify-green?style=flat-square)
+
 
 
 
