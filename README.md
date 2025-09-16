@@ -5,6 +5,9 @@
 ![Platform](https://img.shields.io/badge/platform-Windows-blue?style=for-the-badge&logo=windows)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 
+*Overhauling the UI!*
+*At the momement the UI is getting a overhaul. i have attached a screenshot so you can take a look at the progress.*
+
 *Updated UI!!*
 *Fixed: Padding, image errors*
 *Added new icons, more stylized UI*
@@ -22,10 +25,6 @@
 *Showing comprehensive player statistics after fetching completes.*
 
 <img src="https://github.com/user-attachments/assets/c81c0c09-ba61-4891-a4d7-9495291a58da" alt="Results Display" width="300" />
-
-## Download
-**[⬇Download Latest Release](../../releases/latest)**  
-**Requirements:** Windows 10/11 (64-bit), Steam client running and logged in.
 
 ## Usage Instructions
 1. **Download** the latest release and run the executable.
@@ -52,16 +51,6 @@
   - Verify Steam is running and online.
   - Play a CS2 match to populate recent player data.
   - Ensure Steam’s privacy settings allow match history access.
-
-- **"API rate limit exceeded"**  
-  - Wait 5–10 minutes before retrying.
-  - Reduce the number of players fetched in one go.
-  - Check Faceit/Leetify API status for outages.
-
-- **"Backend server not responding"**  
-  - Restart the application.
-  - Allow port 18080 through Windows Firewall.
-  - Disable conflicting VPN or network software.
 
 - **"Application fails to start"**  
   - Install [Microsoft Visual C++ Redistributable (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe).
@@ -94,14 +83,13 @@ For additional help, visit the [Issues](../../issues) page or join our [Discussi
 
 ---
 
-**Built for the Counter-Strike 2 community**
-
 ![CS2](https://img.shields.io/badge/Game-Counter--Strike%202-blue?style=flat-square&logo=steam)
 ![C++](https://img.shields.io/badge/Backend-C++-blue?style=flat-square&logo=cplusplus)
 ![Electron](https://img.shields.io/badge/Frontend-Electron-teal?style=flat-square&logo=electron)
 ![Steam](https://img.shields.io/badge/API-Steam-black?style=flat-square&logo=steam)
 ![Faceit](https://img.shields.io/badge/API-Faceit-orange?style=flat-square)
 ![Leetify](https://img.shields.io/badge/API-Leetify-green?style=flat-square)
+
 
 
 
