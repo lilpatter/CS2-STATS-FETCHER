@@ -33,18 +33,7 @@
 3. **Fetch Stats**: Click **"Fetch Recent Players"** to retrieve stats automatically.
 4. **Manual Search**: Use **Manual Mode** to query specific players via Steam ID.
 5. **View Results**: Explore detailed stats in the intuitive interface.
-
-## Technical Details
-- **Architecture**: High-performance C++ backend with Crow framework; Electron-based frontend for cross-platform compatibility.
-- **APIs**: Steam Web API, Faceit API, Leetify API for comprehensive data.
-- **Security**: Local processing ensures no sensitive data leaves your device.
-- **Distribution**: Official releases are cryptographically signed and distributed solely via GitHub.
-- **Availability**: No source code is currently available. The backend executable file is planned for release in the near future, pending further cleanup and adjustments to ensure quality and performance.
-
-## System Requirements
-- **Minimum**: Windows 10 (64-bit), 4GB RAM, Steam client logged in.
-- **Recommended**: Windows 11, 8GB+ RAM, stable internet connection for API calls.
-
+   
 ## Troubleshooting
 
 ### Common Issues & Solutions
@@ -53,34 +42,12 @@
   - Play a CS2 match to populate recent player data.
   - Ensure Steam’s privacy settings allow match history access.
 
-- **"Application fails to start"**  
-  - Install [Microsoft Visual C++ Redistributable (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe).
-  - Run the application as Administrator.
-  - Add the executable to your antivirus whitelist.
-
-For additional help, visit the [Issues](../../issues) page or join our [Discussions](../../discussions).
+For help, visit the [Issues](../../issues) page or join our [Discussions](../../discussions).
 
 ### Reporting Bugs
 - Submit issues via the [Issues](../../issues) page.
 - Provide detailed steps to reproduce, system specs, and screenshots.
 - Check for existing reports to avoid duplicates.
-
-### Requesting Features
-- Share ideas on the [Issues](../../issues) page.
-- Clearly explain the feature’s purpose and potential benefits.
-- Review existing feature requests before submitting.
-
-### Code Contributions
-- **Note**: No source code is currently available for contribution. The backend executable file is planned for release in the near future after further cleanup and adjustments. Once released, contributions may be considered for future updates.
-- Contributors will be credited in release notes and the [Acknowledgments](#acknowledgments) section.
-
-## Acknowledgments
-- **Valve Corporation**: For providing the Steam Web API.
-- **Faceit**: For competitive match data and ELO metrics.
-- **Leetify**: For in-depth player performance analytics.
-- **Crow Framework**: Lightweight and efficient C++ web server.
-- **Electron**: Enabling a modern, cross-platform desktop UI.
-- **Open-Source Community**: For tools and libraries that power this project.
 
 ---
 
@@ -90,6 +57,7 @@ For additional help, visit the [Issues](../../issues) page or join our [Discussi
 ![Steam](https://img.shields.io/badge/API-Steam-black?style=flat-square&logo=steam)
 ![Faceit](https://img.shields.io/badge/API-Faceit-orange?style=flat-square)
 ![Leetify](https://img.shields.io/badge/API-Leetify-green?style=flat-square)
+
 
 
 
